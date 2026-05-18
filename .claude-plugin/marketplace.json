@@ -1,0 +1,2214 @@
+{
+  "name": "aml",
+  "owner": {
+    "name": "AML"
+  },
+  "description": "Aggregating marketplace federating every @amlplugins/* plugin under a single Claude Code marketplace source — eliminates needing to register one marketplace per brand.",
+  "plugins": [
+    {
+      "name": "ai21-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ai21-chat.git"
+      }
+    },
+    {
+      "name": "ai21-conversational-rag",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ai21-conversational-rag.git"
+      }
+    },
+    {
+      "name": "ai21-library",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ai21-library.git"
+      }
+    },
+    {
+      "name": "amazon-bedrock",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-bedrock.git"
+      }
+    },
+    {
+      "name": "amazon-cloudfront",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-cloudfront.git"
+      }
+    },
+    {
+      "name": "amazon-cognito",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-cognito.git"
+      }
+    },
+    {
+      "name": "amazon-comprehend",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-comprehend.git"
+      }
+    },
+    {
+      "name": "amazon-dynamodb",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-dynamodb.git"
+      }
+    },
+    {
+      "name": "amazon-ec2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-ec2.git"
+      }
+    },
+    {
+      "name": "amazon-ecs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-ecs.git"
+      }
+    },
+    {
+      "name": "amazon-lambda",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-lambda.git"
+      }
+    },
+    {
+      "name": "amazon-polly",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-polly.git"
+      }
+    },
+    {
+      "name": "amazon-rds",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-rds.git"
+      }
+    },
+    {
+      "name": "amazon-rekognition",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-rekognition.git"
+      }
+    },
+    {
+      "name": "amazon-s3",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-s3.git"
+      }
+    },
+    {
+      "name": "amazon-ses",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-ses.git"
+      }
+    },
+    {
+      "name": "amazon-sns",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-sns.git"
+      }
+    },
+    {
+      "name": "amazon-sqs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/amazon-sqs.git"
+      }
+    },
+    {
+      "name": "anthropic-batches",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-batches.git"
+      }
+    },
+    {
+      "name": "anthropic-bedrock",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-bedrock.git"
+      }
+    },
+    {
+      "name": "anthropic-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-files.git"
+      }
+    },
+    {
+      "name": "anthropic-messages",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-messages.git"
+      }
+    },
+    {
+      "name": "anthropic-prompt-caching",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-prompt-caching.git"
+      }
+    },
+    {
+      "name": "anthropic-tool-use",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-tool-use.git"
+      }
+    },
+    {
+      "name": "anthropic-vertex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-vertex.git"
+      }
+    },
+    {
+      "name": "assemblyai-lemur",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/assemblyai-lemur.git"
+      }
+    },
+    {
+      "name": "assemblyai-realtime",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/assemblyai-realtime.git"
+      }
+    },
+    {
+      "name": "assemblyai-transcribe",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/assemblyai-transcribe.git"
+      }
+    },
+    {
+      "name": "atlassian-bitbucket",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-bitbucket.git"
+      }
+    },
+    {
+      "name": "atlassian-confluence",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-confluence.git"
+      }
+    },
+    {
+      "name": "atlassian-forge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-forge.git"
+      }
+    },
+    {
+      "name": "atlassian-jira",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-jira.git"
+      }
+    },
+    {
+      "name": "atlassian-jira-service-management",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-jira-service-management.git"
+      }
+    },
+    {
+      "name": "atlassian-trello",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/atlassian-trello.git"
+      }
+    },
+    {
+      "name": "azure-cosmos-db",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/azure-cosmos-db.git"
+      }
+    },
+    {
+      "name": "azure-event-grid",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/azure-event-grid.git"
+      }
+    },
+    {
+      "name": "azure-functions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/azure-functions.git"
+      }
+    },
+    {
+      "name": "azure-key-vault",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/azure-key-vault.git"
+      }
+    },
+    {
+      "name": "azure-openai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/azure-openai.git"
+      }
+    },
+    {
+      "name": "azure-service-bus",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/azure-service-bus.git"
+      }
+    },
+    {
+      "name": "azure-storage-blob",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/azure-storage-blob.git"
+      }
+    },
+    {
+      "name": "cerebras-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cerebras-chat.git"
+      }
+    },
+    {
+      "name": "cerebras-completions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cerebras-completions.git"
+      }
+    },
+    {
+      "name": "cohere-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-chat.git"
+      }
+    },
+    {
+      "name": "cohere-classify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-classify.git"
+      }
+    },
+    {
+      "name": "cohere-datasets",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-datasets.git"
+      }
+    },
+    {
+      "name": "cohere-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-embeddings.git"
+      }
+    },
+    {
+      "name": "cohere-fine-tuning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-fine-tuning.git"
+      }
+    },
+    {
+      "name": "cohere-rerank",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/cohere-rerank.git"
+      }
+    },
+    {
+      "name": "deepgram-agent",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-agent.git"
+      }
+    },
+    {
+      "name": "deepgram-listen",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-listen.git"
+      }
+    },
+    {
+      "name": "deepgram-listen-live",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-listen-live.git"
+      }
+    },
+    {
+      "name": "deepgram-manage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-manage.git"
+      }
+    },
+    {
+      "name": "deepgram-speak",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepgram-speak.git"
+      }
+    },
+    {
+      "name": "deepseek-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepseek-chat.git"
+      }
+    },
+    {
+      "name": "deepseek-reasoner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/deepseek-reasoner.git"
+      }
+    },
+    {
+      "name": "elevenlabs-audio-isolation",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-audio-isolation.git"
+      }
+    },
+    {
+      "name": "elevenlabs-conversational-ai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-conversational-ai.git"
+      }
+    },
+    {
+      "name": "elevenlabs-dubbing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-dubbing.git"
+      }
+    },
+    {
+      "name": "elevenlabs-music",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-music.git"
+      }
+    },
+    {
+      "name": "elevenlabs-sound-effects",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-sound-effects.git"
+      }
+    },
+    {
+      "name": "elevenlabs-stt",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-stt.git"
+      }
+    },
+    {
+      "name": "elevenlabs-tts",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-tts.git"
+      }
+    },
+    {
+      "name": "elevenlabs-voice-conversion",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-voice-conversion.git"
+      }
+    },
+    {
+      "name": "elevenlabs-voice-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-voice-design.git"
+      }
+    },
+    {
+      "name": "elevenlabs-voices",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/elevenlabs-voices.git"
+      }
+    },
+    {
+      "name": "fal-client",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/fal-client.git"
+      }
+    },
+    {
+      "name": "fireworks-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/fireworks-chat.git"
+      }
+    },
+    {
+      "name": "fireworks-images",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/fireworks-images.git"
+      }
+    },
+    {
+      "name": "google-admin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-admin.git"
+      }
+    },
+    {
+      "name": "google-admob",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-admob.git"
+      }
+    },
+    {
+      "name": "google-ads",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-ads.git"
+      }
+    },
+    {
+      "name": "google-adsense",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-adsense.git"
+      }
+    },
+    {
+      "name": "google-analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-analytics.git"
+      }
+    },
+    {
+      "name": "google-auth",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-auth.git"
+      }
+    },
+    {
+      "name": "google-books",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-books.git"
+      }
+    },
+    {
+      "name": "google-business-profile",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-business-profile.git"
+      }
+    },
+    {
+      "name": "google-calendar",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-calendar.git"
+      }
+    },
+    {
+      "name": "google-campaign-manager-360",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-campaign-manager-360.git"
+      }
+    },
+    {
+      "name": "google-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-chat.git"
+      }
+    },
+    {
+      "name": "google-classroom",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-classroom.git"
+      }
+    },
+    {
+      "name": "google-cloud-apigee",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-apigee.git"
+      }
+    },
+    {
+      "name": "google-cloud-artifact-registry",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-artifact-registry.git"
+      }
+    },
+    {
+      "name": "google-cloud-asset",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-asset.git"
+      }
+    },
+    {
+      "name": "google-cloud-automl",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-automl.git"
+      }
+    },
+    {
+      "name": "google-cloud-bigquery",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-bigquery.git"
+      }
+    },
+    {
+      "name": "google-cloud-bigtable",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-bigtable.git"
+      }
+    },
+    {
+      "name": "google-cloud-build",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-build.git"
+      }
+    },
+    {
+      "name": "google-cloud-composer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-composer.git"
+      }
+    },
+    {
+      "name": "google-cloud-compute",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-compute.git"
+      }
+    },
+    {
+      "name": "google-cloud-container",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-container.git"
+      }
+    },
+    {
+      "name": "google-cloud-dataflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-dataflow.git"
+      }
+    },
+    {
+      "name": "google-cloud-dataform",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-dataform.git"
+      }
+    },
+    {
+      "name": "google-cloud-dataproc",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-dataproc.git"
+      }
+    },
+    {
+      "name": "google-cloud-datastore",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-datastore.git"
+      }
+    },
+    {
+      "name": "google-cloud-deploy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-deploy.git"
+      }
+    },
+    {
+      "name": "google-cloud-dialogflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-dialogflow.git"
+      }
+    },
+    {
+      "name": "google-cloud-dialogflow-cx",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-dialogflow-cx.git"
+      }
+    },
+    {
+      "name": "google-cloud-discovery-engine",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-discovery-engine.git"
+      }
+    },
+    {
+      "name": "google-cloud-dlp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-dlp.git"
+      }
+    },
+    {
+      "name": "google-cloud-dns",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-dns.git"
+      }
+    },
+    {
+      "name": "google-cloud-document-ai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-document-ai.git"
+      }
+    },
+    {
+      "name": "google-cloud-error-reporting",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-error-reporting.git"
+      }
+    },
+    {
+      "name": "google-cloud-firestore",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-firestore.git"
+      }
+    },
+    {
+      "name": "google-cloud-functions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-functions.git"
+      }
+    },
+    {
+      "name": "google-cloud-iam",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-iam.git"
+      }
+    },
+    {
+      "name": "google-cloud-kms",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-kms.git"
+      }
+    },
+    {
+      "name": "google-cloud-logging",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-logging.git"
+      }
+    },
+    {
+      "name": "google-cloud-memorystore-redis",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-memorystore-redis.git"
+      }
+    },
+    {
+      "name": "google-cloud-monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-monitoring.git"
+      }
+    },
+    {
+      "name": "google-cloud-natural-language",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-natural-language.git"
+      }
+    },
+    {
+      "name": "google-cloud-pubsub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-pubsub.git"
+      }
+    },
+    {
+      "name": "google-cloud-recaptcha-enterprise",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-recaptcha-enterprise.git"
+      }
+    },
+    {
+      "name": "google-cloud-resource-manager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-resource-manager.git"
+      }
+    },
+    {
+      "name": "google-cloud-retail",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-retail.git"
+      }
+    },
+    {
+      "name": "google-cloud-run",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-run.git"
+      }
+    },
+    {
+      "name": "google-cloud-scheduler",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-scheduler.git"
+      }
+    },
+    {
+      "name": "google-cloud-secret-manager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-secret-manager.git"
+      }
+    },
+    {
+      "name": "google-cloud-spanner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-spanner.git"
+      }
+    },
+    {
+      "name": "google-cloud-speech",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-speech.git"
+      }
+    },
+    {
+      "name": "google-cloud-storage",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-storage.git"
+      }
+    },
+    {
+      "name": "google-cloud-tasks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-tasks.git"
+      }
+    },
+    {
+      "name": "google-cloud-text-to-speech",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-text-to-speech.git"
+      }
+    },
+    {
+      "name": "google-cloud-trace",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-trace.git"
+      }
+    },
+    {
+      "name": "google-cloud-translate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-translate.git"
+      }
+    },
+    {
+      "name": "google-cloud-vertex-ai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-vertex-ai.git"
+      }
+    },
+    {
+      "name": "google-cloud-video-intelligence",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-video-intelligence.git"
+      }
+    },
+    {
+      "name": "google-cloud-vision",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-cloud-vision.git"
+      }
+    },
+    {
+      "name": "google-custom-search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-custom-search.git"
+      }
+    },
+    {
+      "name": "google-display-video-360",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-display-video-360.git"
+      }
+    },
+    {
+      "name": "google-docs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-docs.git"
+      }
+    },
+    {
+      "name": "google-drive",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-drive.git"
+      }
+    },
+    {
+      "name": "google-firebase",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-firebase.git"
+      }
+    },
+    {
+      "name": "google-firebase-admin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-firebase-admin.git"
+      }
+    },
+    {
+      "name": "google-fonts",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-fonts.git"
+      }
+    },
+    {
+      "name": "google-forms",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-forms.git"
+      }
+    },
+    {
+      "name": "google-generative-ai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-generative-ai.git"
+      }
+    },
+    {
+      "name": "google-gmail",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-gmail.git"
+      }
+    },
+    {
+      "name": "google-identity-toolkit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-identity-toolkit.git"
+      }
+    },
+    {
+      "name": "google-maps",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-maps.git"
+      }
+    },
+    {
+      "name": "google-meet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-meet.git"
+      }
+    },
+    {
+      "name": "google-merchant",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-merchant.git"
+      }
+    },
+    {
+      "name": "google-people",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-people.git"
+      }
+    },
+    {
+      "name": "google-search-ads-360",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-search-ads-360.git"
+      }
+    },
+    {
+      "name": "google-search-console",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-search-console.git"
+      }
+    },
+    {
+      "name": "google-sheets",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-sheets.git"
+      }
+    },
+    {
+      "name": "google-slides",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-slides.git"
+      }
+    },
+    {
+      "name": "google-tag-manager",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-tag-manager.git"
+      }
+    },
+    {
+      "name": "google-tasks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-tasks.git"
+      }
+    },
+    {
+      "name": "google-wallet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-wallet.git"
+      }
+    },
+    {
+      "name": "google-youtube",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-youtube.git"
+      }
+    },
+    {
+      "name": "google-youtube-analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/google-youtube-analytics.git"
+      }
+    },
+    {
+      "name": "groq-audio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/groq-audio.git"
+      }
+    },
+    {
+      "name": "groq-batch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/groq-batch.git"
+      }
+    },
+    {
+      "name": "groq-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/groq-chat.git"
+      }
+    },
+    {
+      "name": "groq-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/groq-embeddings.git"
+      }
+    },
+    {
+      "name": "groq-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/groq-files.git"
+      }
+    },
+    {
+      "name": "hubspot-automation-workflows",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-automation-workflows.git"
+      }
+    },
+    {
+      "name": "hubspot-cms-pages",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-cms-pages.git"
+      }
+    },
+    {
+      "name": "hubspot-conversations",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-conversations.git"
+      }
+    },
+    {
+      "name": "hubspot-crm-companies",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-crm-companies.git"
+      }
+    },
+    {
+      "name": "hubspot-crm-contacts",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-crm-contacts.git"
+      }
+    },
+    {
+      "name": "hubspot-crm-deals",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-crm-deals.git"
+      }
+    },
+    {
+      "name": "hubspot-crm-tickets",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-crm-tickets.git"
+      }
+    },
+    {
+      "name": "hubspot-marketing-emails",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-marketing-emails.git"
+      }
+    },
+    {
+      "name": "hubspot-marketing-forms",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/hubspot-marketing-forms.git"
+      }
+    },
+    {
+      "name": "huggingface-agents",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/huggingface-agents.git"
+      }
+    },
+    {
+      "name": "huggingface-hub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/huggingface-hub.git"
+      }
+    },
+    {
+      "name": "huggingface-inference",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/huggingface-inference.git"
+      }
+    },
+    {
+      "name": "langchain-anthropic",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-anthropic.git"
+      }
+    },
+    {
+      "name": "langchain-aws",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-aws.git"
+      }
+    },
+    {
+      "name": "langchain-cohere",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-cohere.git"
+      }
+    },
+    {
+      "name": "langchain-community",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-community.git"
+      }
+    },
+    {
+      "name": "langchain-core",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-core.git"
+      }
+    },
+    {
+      "name": "langchain-google-genai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-google-genai.git"
+      }
+    },
+    {
+      "name": "langchain-google-vertexai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-google-vertexai.git"
+      }
+    },
+    {
+      "name": "langchain-groq",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-groq.git"
+      }
+    },
+    {
+      "name": "langchain-langgraph",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-langgraph.git"
+      }
+    },
+    {
+      "name": "langchain-meta",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-meta.git"
+      }
+    },
+    {
+      "name": "langchain-mistralai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-mistralai.git"
+      }
+    },
+    {
+      "name": "langchain-ollama",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-ollama.git"
+      }
+    },
+    {
+      "name": "langchain-openai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-openai.git"
+      }
+    },
+    {
+      "name": "langchain-pinecone",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/langchain-pinecone.git"
+      }
+    },
+    {
+      "name": "linear-cycles",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/linear-cycles.git"
+      }
+    },
+    {
+      "name": "linear-issues",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/linear-issues.git"
+      }
+    },
+    {
+      "name": "linear-projects",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/linear-projects.git"
+      }
+    },
+    {
+      "name": "linear-roadmaps",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/linear-roadmaps.git"
+      }
+    },
+    {
+      "name": "linear-webhooks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/linear-webhooks.git"
+      }
+    },
+    {
+      "name": "llamaindex-anthropic",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-anthropic.git"
+      }
+    },
+    {
+      "name": "llamaindex-google",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-google.git"
+      }
+    },
+    {
+      "name": "llamaindex-meta",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-meta.git"
+      }
+    },
+    {
+      "name": "llamaindex-openai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/llamaindex-openai.git"
+      }
+    },
+    {
+      "name": "microsoft-graph-calendar",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/microsoft-graph-calendar.git"
+      }
+    },
+    {
+      "name": "microsoft-graph-drive",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/microsoft-graph-drive.git"
+      }
+    },
+    {
+      "name": "microsoft-graph-mail",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/microsoft-graph-mail.git"
+      }
+    },
+    {
+      "name": "microsoft-graph-sharepoint",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/microsoft-graph-sharepoint.git"
+      }
+    },
+    {
+      "name": "microsoft-graph-teams",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/microsoft-graph-teams.git"
+      }
+    },
+    {
+      "name": "microsoft-graph-users",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/microsoft-graph-users.git"
+      }
+    },
+    {
+      "name": "mistral-agents",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-agents.git"
+      }
+    },
+    {
+      "name": "mistral-batch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-batch.git"
+      }
+    },
+    {
+      "name": "mistral-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-chat.git"
+      }
+    },
+    {
+      "name": "mistral-classifiers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-classifiers.git"
+      }
+    },
+    {
+      "name": "mistral-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-embeddings.git"
+      }
+    },
+    {
+      "name": "mistral-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-files.git"
+      }
+    },
+    {
+      "name": "mistral-fim",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-fim.git"
+      }
+    },
+    {
+      "name": "mistral-fine-tuning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-fine-tuning.git"
+      }
+    },
+    {
+      "name": "mistral-ocr",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/mistral-ocr.git"
+      }
+    },
+    {
+      "name": "notion-blocks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-blocks.git"
+      }
+    },
+    {
+      "name": "notion-comments",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-comments.git"
+      }
+    },
+    {
+      "name": "notion-databases",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-databases.git"
+      }
+    },
+    {
+      "name": "notion-pages",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-pages.git"
+      }
+    },
+    {
+      "name": "notion-search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-search.git"
+      }
+    },
+    {
+      "name": "notion-users",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/notion-users.git"
+      }
+    },
+    {
+      "name": "ollama-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-chat.git"
+      }
+    },
+    {
+      "name": "ollama-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-embeddings.git"
+      }
+    },
+    {
+      "name": "ollama-generate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-generate.git"
+      }
+    },
+    {
+      "name": "ollama-models",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/ollama-models.git"
+      }
+    },
+    {
+      "name": "openai-assistants",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-assistants.git"
+      }
+    },
+    {
+      "name": "openai-audio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-audio.git"
+      }
+    },
+    {
+      "name": "openai-batch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-batch.git"
+      }
+    },
+    {
+      "name": "openai-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-chat.git"
+      }
+    },
+    {
+      "name": "openai-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-embeddings.git"
+      }
+    },
+    {
+      "name": "openai-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-files.git"
+      }
+    },
+    {
+      "name": "openai-fine-tuning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-fine-tuning.git"
+      }
+    },
+    {
+      "name": "openai-images",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-images.git"
+      }
+    },
+    {
+      "name": "openai-moderations",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-moderations.git"
+      }
+    },
+    {
+      "name": "openai-responses",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openai-responses.git"
+      }
+    },
+    {
+      "name": "openrouter-ai-sdk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openrouter-ai-sdk.git"
+      }
+    },
+    {
+      "name": "openrouter-sdk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/openrouter-sdk.git"
+      }
+    },
+    {
+      "name": "perplexity-search",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/perplexity-search.git"
+      }
+    },
+    {
+      "name": "replicate-collections",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/replicate-collections.git"
+      }
+    },
+    {
+      "name": "replicate-deployments",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/replicate-deployments.git"
+      }
+    },
+    {
+      "name": "replicate-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/replicate-files.git"
+      }
+    },
+    {
+      "name": "replicate-hardware",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/replicate-hardware.git"
+      }
+    },
+    {
+      "name": "replicate-models",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/replicate-models.git"
+      }
+    },
+    {
+      "name": "replicate-predictions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/replicate-predictions.git"
+      }
+    },
+    {
+      "name": "replicate-trainings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/replicate-trainings.git"
+      }
+    },
+    {
+      "name": "salesforce-bulk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-bulk.git"
+      }
+    },
+    {
+      "name": "salesforce-marketing-cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-marketing-cloud.git"
+      }
+    },
+    {
+      "name": "salesforce-metadata",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-metadata.git"
+      }
+    },
+    {
+      "name": "salesforce-sobjects",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-sobjects.git"
+      }
+    },
+    {
+      "name": "salesforce-soql",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-soql.git"
+      }
+    },
+    {
+      "name": "salesforce-streaming",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/salesforce-streaming.git"
+      }
+    },
+    {
+      "name": "sendgrid-domain-authentication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-domain-authentication.git"
+      }
+    },
+    {
+      "name": "sendgrid-event-webhook",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-event-webhook.git"
+      }
+    },
+    {
+      "name": "sendgrid-inbound-parse",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-inbound-parse.git"
+      }
+    },
+    {
+      "name": "sendgrid-mail",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-mail.git"
+      }
+    },
+    {
+      "name": "sendgrid-marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-marketing.git"
+      }
+    },
+    {
+      "name": "sendgrid-suppression",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/sendgrid-suppression.git"
+      }
+    },
+    {
+      "name": "shopify-admin-api",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-admin-api.git"
+      }
+    },
+    {
+      "name": "shopify-app-bridge",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-app-bridge.git"
+      }
+    },
+    {
+      "name": "shopify-billing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-billing.git"
+      }
+    },
+    {
+      "name": "shopify-functions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-functions.git"
+      }
+    },
+    {
+      "name": "shopify-storefront-api",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-storefront-api.git"
+      }
+    },
+    {
+      "name": "shopify-webhooks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/shopify-webhooks.git"
+      }
+    },
+    {
+      "name": "slack-bolt",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/slack-bolt.git"
+      }
+    },
+    {
+      "name": "slack-incoming-webhooks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/slack-incoming-webhooks.git"
+      }
+    },
+    {
+      "name": "slack-oauth",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/slack-oauth.git"
+      }
+    },
+    {
+      "name": "slack-socket-mode",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/slack-socket-mode.git"
+      }
+    },
+    {
+      "name": "slack-web-api",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/slack-web-api.git"
+      }
+    },
+    {
+      "name": "stability-control",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stability-control.git"
+      }
+    },
+    {
+      "name": "stability-edit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stability-edit.git"
+      }
+    },
+    {
+      "name": "stability-generate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stability-generate.git"
+      }
+    },
+    {
+      "name": "stability-three-d",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stability-three-d.git"
+      }
+    },
+    {
+      "name": "stability-upscale",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stability-upscale.git"
+      }
+    },
+    {
+      "name": "stability-video",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stability-video.git"
+      }
+    },
+    {
+      "name": "stripe-billing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-billing.git"
+      }
+    },
+    {
+      "name": "stripe-checkout",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-checkout.git"
+      }
+    },
+    {
+      "name": "stripe-climate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-climate.git"
+      }
+    },
+    {
+      "name": "stripe-connect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-connect.git"
+      }
+    },
+    {
+      "name": "stripe-identity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-identity.git"
+      }
+    },
+    {
+      "name": "stripe-issuing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-issuing.git"
+      }
+    },
+    {
+      "name": "stripe-radar",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-radar.git"
+      }
+    },
+    {
+      "name": "stripe-tax",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-tax.git"
+      }
+    },
+    {
+      "name": "stripe-terminal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/stripe-terminal.git"
+      }
+    },
+    {
+      "name": "together-audio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-audio.git"
+      }
+    },
+    {
+      "name": "together-batch",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-batch.git"
+      }
+    },
+    {
+      "name": "together-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-chat.git"
+      }
+    },
+    {
+      "name": "together-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-embeddings.git"
+      }
+    },
+    {
+      "name": "together-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-files.git"
+      }
+    },
+    {
+      "name": "together-fine-tuning",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-fine-tuning.git"
+      }
+    },
+    {
+      "name": "together-images",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-images.git"
+      }
+    },
+    {
+      "name": "together-rerank",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/together-rerank.git"
+      }
+    },
+    {
+      "name": "twilio-conversations",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-conversations.git"
+      }
+    },
+    {
+      "name": "twilio-flex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-flex.git"
+      }
+    },
+    {
+      "name": "twilio-lookup",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-lookup.git"
+      }
+    },
+    {
+      "name": "twilio-messaging",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-messaging.git"
+      }
+    },
+    {
+      "name": "twilio-notify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-notify.git"
+      }
+    },
+    {
+      "name": "twilio-studio",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-studio.git"
+      }
+    },
+    {
+      "name": "twilio-sync",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-sync.git"
+      }
+    },
+    {
+      "name": "twilio-taskrouter",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-taskrouter.git"
+      }
+    },
+    {
+      "name": "twilio-verify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-verify.git"
+      }
+    },
+    {
+      "name": "twilio-video",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-video.git"
+      }
+    },
+    {
+      "name": "twilio-voice",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/twilio-voice.git"
+      }
+    },
+    {
+      "name": "vercel-ai-amazon-bedrock",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-amazon-bedrock.git"
+      }
+    },
+    {
+      "name": "vercel-ai-anthropic",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-anthropic.git"
+      }
+    },
+    {
+      "name": "vercel-ai-azure",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-azure.git"
+      }
+    },
+    {
+      "name": "vercel-ai-cerebras",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-cerebras.git"
+      }
+    },
+    {
+      "name": "vercel-ai-cohere",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-cohere.git"
+      }
+    },
+    {
+      "name": "vercel-ai-deepinfra",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-deepinfra.git"
+      }
+    },
+    {
+      "name": "vercel-ai-google",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-google.git"
+      }
+    },
+    {
+      "name": "vercel-ai-google-vertex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-google-vertex.git"
+      }
+    },
+    {
+      "name": "vercel-ai-groq",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-groq.git"
+      }
+    },
+    {
+      "name": "vercel-ai-mistral",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-mistral.git"
+      }
+    },
+    {
+      "name": "vercel-ai-openai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-openai.git"
+      }
+    },
+    {
+      "name": "vercel-ai-openai-compatible",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-openai-compatible.git"
+      }
+    },
+    {
+      "name": "vercel-ai-replicate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-replicate.git"
+      }
+    },
+    {
+      "name": "vercel-ai-sdk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-sdk.git"
+      }
+    },
+    {
+      "name": "vercel-ai-togetherai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/vercel-ai-togetherai.git"
+      }
+    },
+    {
+      "name": "voyageai-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/voyageai-embeddings.git"
+      }
+    },
+    {
+      "name": "voyageai-multimodal-embeddings",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/voyageai-multimodal-embeddings.git"
+      }
+    },
+    {
+      "name": "voyageai-rerank",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/voyageai-rerank.git"
+      }
+    },
+    {
+      "name": "xai-chat",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/xai-chat.git"
+      }
+    },
+    {
+      "name": "xai-images",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/xai-images.git"
+      }
+    },
+    {
+      "name": "zoom-video-sdk",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/zoom-video-sdk.git"
+      }
+    }
+  ]
+}
